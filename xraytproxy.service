@@ -7,4 +7,4 @@ Wants=network-online.target
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/your-path/xraytproxy.sh start
-ExecStop=/your-path/ilzumi/Scripts/xraytproxy.sh stop
+ExecStop=/your-path/Scripts/xraytproxy.sh stop
